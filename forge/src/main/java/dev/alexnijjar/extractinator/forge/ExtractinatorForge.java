@@ -1,8 +1,8 @@
 package dev.alexnijjar.extractinator.forge;
 
 import dev.alexnijjar.extractinator.Extractinator;
-import dev.alexnijjar.extractinator.client.ExtractinatorClient;
-import dev.alexnijjar.extractinator.registry.ModOres;
+import dev.alexnijjar.extractinator.client.forge.ExtractinatorClient;
+import dev.alexnijjar.extractinator.registry.forge.ModOres;
 import dev.alexnijjar.extractinator.registry.forge.RegistryHelpersImpl;
 import net.minecraft.core.Holder;
 import net.minecraft.world.level.biome.Biome;

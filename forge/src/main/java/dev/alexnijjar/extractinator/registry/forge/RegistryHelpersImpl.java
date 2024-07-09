@@ -22,6 +22,9 @@ public class RegistryHelpersImpl {
         return BlockEntityType.Builder.of(factory::create, blocks).build(null);
     }
 
+    public static <V, T extends V> Supplier<T> register(Registry<V> registry, String id, Supplier<T> object) {
+        return registerFull(registry, id, object).getFirst();
+    }
     @SuppressWarnings("unchecked")
     public static <T> DeferredRegister<T> getOrCreateRegistry(Registry<T> registry) {
         if(REGISTRIES.containsKey(registry)) return (DeferredRegister<T>) REGISTRIES.get(registry);

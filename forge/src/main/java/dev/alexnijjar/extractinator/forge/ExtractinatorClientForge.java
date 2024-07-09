@@ -1,6 +1,5 @@
 package dev.alexnijjar.extractinator.forge;
 
-import dev.alexnijjar.extractinator.client.ExtractinatorClient;
 import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -20,6 +19,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Supplier;
+
+import dev.alexnijjar.extractinator.client.forge.ExtractinatorClient;
 
 public class ExtractinatorClientForge {
     private static final Map<Item, BlockEntityWithoutLevelRenderer> ITEM_RENDERERS = new HashMap<>();
