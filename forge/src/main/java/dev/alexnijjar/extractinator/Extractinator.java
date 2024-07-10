@@ -1,6 +1,5 @@
 package dev.alexnijjar.extractinator;
 
-import dev.alexnijjar.extractinator.registry.*;
 import dev.alexnijjar.extractinator.registry.forge.ModBlockEntities;
 import dev.alexnijjar.extractinator.registry.forge.ModBlocks;
 import dev.alexnijjar.extractinator.registry.forge.ModItems;

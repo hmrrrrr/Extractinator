@@ -1,13 +1,13 @@
 package dev.alexnijjar.extractinator.compat.jei;
 
-import dev.alexnijjar.extractinator.recipes.ExtractinatorRecipe;
+import org.jetbrains.annotations.NotNull;
+
 import mezz.jei.api.gui.drawable.IDrawable;
 import mezz.jei.api.helpers.IGuiHelper;
 import mezz.jei.api.recipe.RecipeType;
 import mezz.jei.api.recipe.category.IRecipeCategory;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
-import org.jetbrains.annotations.NotNull;
 
 /**
  * This class was largely inspired by or taken from the Resourceful Bees repository with
